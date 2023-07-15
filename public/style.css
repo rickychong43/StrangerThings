@@ -1,0 +1,25 @@
+*{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+body{
+  background-color: aqua;
+}
+.container-fluid {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center; 
+    border: 2px;
+  }
+  #button{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .posts{
+    border: 3px;
+  }
